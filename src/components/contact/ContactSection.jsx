@@ -294,8 +294,9 @@ const ContactSection = () => {
             Find Us On Map
           </h2>
           <div className="w-full h-96 bg-gray-200 rounded-lg overflow-hidden">
+            
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.2590374830806!2d-122.59131251101299!3d45.50577329649293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a051bed146f9%3A0xa9cd73487ad72b1c!2s7413%20SE%20Division%20St%2C%20Portland%2C%20OR%2097206%2C%20USA!5e1!3m2!1sen!2sbd!4v1753791867666!5m2!1sen!2sbd"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.5875669489087!2d-122.94353072344765!3d47.02974087114281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549175b452d3b647%3A0x732aa77ea1c02a0!2s3300%2021st%20Ave%20SW%2C%20Olympia%2C%20WA%2098512%2C%20USA!5e1!3m2!1sen!2sbd!4v1753857150859!5m2!1sen!2sbd"
               width="100%"
               height="100%"
               style={{ border: 0 }}
