@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { MapPin } from "lucide-react";
 import { Mail, Phone } from "lucide-react";
+import contactInfo from "../utils/contactInfo";
 
 const TermsAndConditions = () => {
     const lastUpdated = "October 26, 2023";
@@ -9,12 +10,12 @@ const TermsAndConditions = () => {
     {
       title: "Acceptance of Terms",
       content:
-        "By accessing and using the services provided by Quasarlabs, you accept and agree to be bound by the terms and provision of this agreement. These terms apply to all visitors, users, and others who access or use our services. If you do not agree to abide by the above, please do not use our services.",
+        "By accessing and using the services provided by Eclipse, you accept and agree to be bound by the terms and provision of this agreement. These terms apply to all visitors, users, and others who access or use our services. If you do not agree to abide by the above, please do not use our services.",
     },
     {
       title: "Service Description",
       content:
-        "Quasarlabs provides digital marketing services including but not limited to: SEO, PPC Advertising, Social Media Marketing, Content Marketing, and Website Development.",
+        "Eclipse provides digital marketing services including but not limited to: SEO, PPC Advertising, Social Media Marketing, Content Marketing, and Website Development.",
     },
     {
       title: "Client Responsibilities",
@@ -29,7 +30,7 @@ const TermsAndConditions = () => {
     {
       title: "Intellectual Property",
       content:
-        "Client retains ownership of their brand and content. Quasarlabs retains ownership of our methodologies and tools. Work products created specifically for clients become client property upon full payment.",
+        "Client retains ownership of their brand and content. Eclipse retains ownership of our methodologies and tools. Work products created specifically for clients become client property upon full payment.",
     },
     {
       title: "Confidentiality",
@@ -108,10 +109,10 @@ const TermsAndConditions = () => {
                     <div>
                       <h4 className="font-semibold">Email</h4>
                       <a
-                        href="mailto:hendersonbrooklynmaj509@hotmail.com"
+                        href={`mailto:${contactInfo.email}`}
                         className="opacity-90 hover:opacity-100 break-all"
                       >
-                        hendersonbrooklynmaj509@hotmail.com
+                        {contactInfo.email}
                       </a>
                     </div>
                   </li>
@@ -120,10 +121,10 @@ const TermsAndConditions = () => {
                     <div>
                       <h4 className="font-semibold">Phone</h4>
                       <a
-                        href="tel:+12522633938"
+                        href={`tel:${contactInfo.phone}`}
                         className="opacity-90 hover:opacity-100"
                       >
-                        +1 252-263-3938
+                       {contactInfo.phone}
                       </a>
                     </div>
                   </li>
@@ -132,8 +133,7 @@ const TermsAndConditions = () => {
                     <div>
                       <h4 className="font-semibold">Address</h4>
                       <p className="opacity-90">
-                        21st Avenue Southwest 3300, Olympia, Washington, 98512,
-                        United States of America
+                       {contactInfo.address}
                       </p>
                     </div>
                   </li>

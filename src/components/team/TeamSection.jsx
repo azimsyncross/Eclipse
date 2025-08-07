@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, User } from 'lucide-react';
+import contactInfo from '../utils/contactInfo';
 
 const TeamSection = () => {
   return (
@@ -28,12 +29,12 @@ const TeamSection = () => {
                 <User className="w-16 h-16 text-indigo-600" />
               </div>
               <div className="text-center sm:text-left">
-                <h3 className="text-2xl font-bold text-gray-900">DANIAL MORRIS PENN</h3>
+                <h3 className="text-2xl font-bold text-gray-900">{contactInfo.name}</h3>
                 <p className="text-indigo-600 font-semibold">Executive Director</p>
               </div>
             </div>
             <p className="mt-6 text-gray-600 leading-relaxed">
-              DANIAL MORRIS PENN leads our organization with a commitment to innovation and excellence. 
+              {contactInfo.name} leads our organization with a commitment to innovation and excellence. 
               His strategic direction ensures our continued growth and success in the industry.
             </p>
           </motion.div>
@@ -54,7 +55,7 @@ const TeamSection = () => {
                   <div>
                     <h4 className="font-semibold">Our Office</h4>
                     <p className="opacity-90">
-                      21st Avenue Southwest 3300, Olympia, Washington, 98512, United States of America
+                     {contactInfo.address}
                     </p>
                   </div>
                 </li>
@@ -63,10 +64,10 @@ const TeamSection = () => {
                   <div>
                     <h4 className="font-semibold">Email Us</h4>
                     <a
-                      href="mailto:hendersonbrooklynmaj509@hotmail.com"
+                      href={`mailto:${contactInfo.email}`}
                       className="opacity-90 hover:opacity-100 transition"
                     >
-                      hendersonbrooklynmaj509@hotmail.com
+                      {contactInfo.email}
                     </a>
                   </div>
                 </li>
@@ -75,10 +76,10 @@ const TeamSection = () => {
                   <div>
                     <h4 className="font-semibold">Call Us</h4>
                     <a
-                      href="tel:+12522633938"
+                      href={`tel:${contactInfo.phone}`}
                       className="opacity-90 hover:opacity-100 transition"
                     >
-                      +1 252-263-3938
+                      {contactInfo.phone}
                     </a>
                   </div>
                 </li>

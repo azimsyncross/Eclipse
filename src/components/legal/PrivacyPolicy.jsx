@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin } from "lucide-react";
+import contactInfo from "../utils/contactInfo";
 
 const PrivacyPolicySection = () => {
   const lastUpdated = "October 26, 2023";
@@ -18,7 +19,7 @@ const PrivacyPolicySection = () => {
     {
       title: "Information Sharing",
       content:
-        "We may share your information with service providers, when required by law, to protect the rights and safety of Quasarlabs and others, or in connection with business transactions like mergers.",
+        "We may share your information with service providers, when required by law, to protect the rights and safety of Eclipse and others, or in connection with business transactions like mergers.",
     },
     {
       title: "Data Security",
@@ -105,7 +106,7 @@ const PrivacyPolicySection = () => {
                         href="mailto:hendersonbrooklynmaj509@hotmail.com"
                         className="opacity-90 hover:opacity-100 break-all"
                       >
-                        hendersonbrooklynmaj509@hotmail.com
+                      {contactInfo.email}
                       </a>
                     </div>
                   </li>
@@ -117,7 +118,7 @@ const PrivacyPolicySection = () => {
                         href="tel:+12522633938"
                         className="opacity-90 hover:opacity-100"
                       >
-                        +1 252-263-3938
+                        {contactInfo.phone}
                       </a>
                     </div>
                   </li>
@@ -126,8 +127,7 @@ const PrivacyPolicySection = () => {
                     <div>
                       <h4 className="font-semibold">Address</h4>
                       <p className="opacity-90">
-                        21st Avenue Southwest 3300, Olympia, Washington, 98512,
-                        United States of America
+                        {contactInfo.address}
                       </p>
                     </div>
                   </li>

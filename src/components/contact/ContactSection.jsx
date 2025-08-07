@@ -21,24 +21,25 @@ const ContactSection = () => {
   {
     icon: User,
     title: "Executive Director",
-    content: "DANIAL MORRIS PENN",
+    content: "JOSEPH MCCARY",
   },
   {
     icon: MapPin,
     title: "Our Location",
-    content: "21st Avenue Southwest 3300, Olympia, Washington, 98512, United States of America",
+    content: "Emerald Hills Drive 1123, Edmonds, Washington, 98020, United States of America",
   },
   {
     icon: Phone,
     title: "Phone Number",
-    content: "+1 2522633938",
+    content: "+1 612-594-7289",
   },
   {
     icon: Mail,
     title: "Email Address",
-    content: "hendersonbrooklynmaj509@hotmail.com",
+    content: "reyescooperiaz843@hotmail.com",
   },
 ];
+
 
   // Services array
   const services = [

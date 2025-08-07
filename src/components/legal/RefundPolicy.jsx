@@ -10,7 +10,7 @@ const RefundPolicySection = () => {
         { title: "Setup Fees and One-Time Projects", content: "Setup fees are non-refundable once work has begun. For project-based work, refunds are considered only if we fail to deliver agreed-upon deliverables. No refunds for completed work." },
         { title: "Advertising Spend", content: "Advertising budget paid to platforms (e.g., Google, Facebook) is non-refundable. Management fees follow our standard service plan refund policy. Unused ad budget remains in your ad accounts." },
         { title: "Refund Exclusions", content: "Refunds will not be provided for failure to provide necessary access/approvals, changes in business priorities, dissatisfaction due to factors beyond our control, or violation of our terms." },
-        { title: "Refund Request Process", content: "To request a refund, contact us in writing at perryalexanderojd163@hotmail.com. Include your account info and reason. Allow 5-10 business days for review. Approved refunds are processed within 10-15 business days to the original payment method." },
+        { title: "Refund Request Process", content: "To request a refund, contact us in writing at reyescooperiaz843@hotmail.com. Include your account info and reason. Allow 5-10 business days for review. Approved refunds are processed within 10-15 business days to the original payment method." },
         { title: "Alternative Solutions", content: "Instead of a refund, we may offer service credits, additional services at no charge, or extended service periods." },
         { title: "Chargeback Policy", content: "Initiating a chargeback without contacting us may result in immediate service suspension, forfeiture of credits, and additional fees." }
     ];

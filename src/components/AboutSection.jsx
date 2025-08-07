@@ -54,7 +54,7 @@ const AboutSection = () => {
             <span className="text-indigo-600"> Digital World</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            At <span className="font-semibold text-indigo-600">Quasarlabs</span>, we're more than just a digital marketing agency. We're your strategic partners in transformation, dedicated to making sophisticated marketing strategies accessible and delivering outcome-focused solutions that drive authentic business growth.
+            At <span className="font-semibold text-indigo-600">Eclipse</span>, we're more than just a digital marketing agency. We're your strategic partners in transformation, dedicated to making sophisticated marketing strategies accessible and delivering outcome-focused solutions that drive authentic business growth.
           </p>
         </motion.div>
 

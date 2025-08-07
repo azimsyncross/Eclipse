@@ -25,7 +25,7 @@ const Hero = () => {
 
           <p className="mt-6 text-lg text-gray-300 leading-relaxed max-w-2xl">
             Drive organic growth and stay ahead with cutting-edge SEO strategies
-            tailored for your success. Let Quasarlabs navigate your business to
+            tailored for your success. Let Eclipse navigate your business to
             the top of search results.
           </p>
 

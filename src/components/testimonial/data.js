@@ -6,7 +6,7 @@ const testimonials = [
     company: "TechCorp Ltd",
     image: "/img/testimonials/testimonials-2.jpg",
     quote: 
-      "The level of service and expertise provided by the Quasarlabs team was exceptional. They truly transformed our digital presence, helping us reach new customers and expand our brand awareness.",
+      "The level of service and expertise provided by the Eclipse team was exceptional. They truly transformed our digital presence, helping us reach new customers and expand our brand awareness.",
     rating: 5,
   },
   {
@@ -16,7 +16,7 @@ const testimonials = [
     company: "Innovate AI",
     image: "/img/testimonials/testimonials-1.jpg",
     quote: 
-      "Working with Quasarlabs was a game-changer for our business. Their in-depth knowledge of SEO and digital marketing allowed us to achieve remarkable growth in a short period of time.",
+      "Working with Eclipse was a game-changer for our business. Their in-depth knowledge of SEO and digital marketing allowed us to achieve remarkable growth in a short period of time.",
     rating: 5,
   },
   {
@@ -26,7 +26,7 @@ const testimonials = [
     company: "Design Hub",
     image: "/img/testimonials/testimonials-3.jpg",
     quote: 
-      "The team at Quasarlabs provided innovative solutions that helped us streamline our marketing processes. Their technical expertise and creative ideas truly made a difference in our product launch.",
+      "The team at Eclipse provided innovative solutions that helped us streamline our marketing processes. Their technical expertise and creative ideas truly made a difference in our product launch.",
     rating: 5,
   },
   {
@@ -36,7 +36,7 @@ const testimonials = [
     company: "GreenTech Innovations",
     image: "/img/testimonials/testimonials-4.jpg",
     quote: 
-      "Quasarlabs helped us enhance our online visibility and grow our customer base with targeted strategies. Their approach to digital marketing is practical, effective, and results-driven.",
+      "Eclipse helped us enhance our online visibility and grow our customer base with targeted strategies. Their approach to digital marketing is practical, effective, and results-driven.",
     rating: 5,
   },
   {
@@ -46,7 +46,7 @@ const testimonials = [
     company: "Creative Solutions Agency",
     image: "/img/testimonials/testimonials-5.jpg",
     quote: 
-      "The expertise of Quasarlabs's team in SEO and content marketing was evident in the results. They went above and beyond to help us improve our search rankings and engage our audience effectively.",
+      "The expertise of Eclipse's team in SEO and content marketing was evident in the results. They went above and beyond to help us improve our search rankings and engage our audience effectively.",
     rating: 5,
   },
 ];

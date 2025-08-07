@@ -7,18 +7,18 @@ const Footer = () => {
     <footer id="footer" className="bg-gray-800 text-gray-200">
       <div className="container mx-auto pt-16 pb-10 px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* About Section - Updated to Quasarlabs */}
+          {/* About Section - Updated to Eclipse */}
           <div>
             <Link to="/" className="flex items-center mb-4">
-              {/* <span className="text-2xl font-bold text-white">Quasarlabs</span> */}
+              {/* <span className="text-2xl font-bold text-white">Eclipse</span> */}
               <img
                 src="/logo.png"
-                alt="Quasarlabs logo"
+                alt="Eclipse logo"
                 className="h-24 w-auto"
               />
             </Link>
             <p className="text-gray-400">
-              At Quasarlabs, we focus on delivering impactful SEO strategies
+              At Eclipse, we focus on delivering impactful SEO strategies
               that help businesses enhance their digital presence and achieve
               growth.
             </p>
@@ -131,7 +131,7 @@ const Footer = () => {
         <div className="container mx-auto py-6 px-4 flex flex-col sm:flex-row items-center justify-between">
           {/* Copyright Text */}
           <p className="text-sm text-gray-400 mb-4 sm:mb-0 text-center sm:text-left">
-            © Copyright <strong className="px-1 text-white">Quasarlabs</strong>.
+            © Copyright <strong className="px-1 text-white">Eclipse</strong>.
             All Rights Reserved
           </p>
 

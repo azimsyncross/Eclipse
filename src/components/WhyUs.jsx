@@ -38,7 +38,7 @@ const WhyUs = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Why Partner with <span className="text-indigo-600">Quasarlabs?</span>
+            Why Partner with <span className="text-indigo-600">Eclipse?</span>
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
             Our agile, transparent, and results-obsessed approach means you're not just another client—you're a collaborator in achieving digital excellence.

@@ -28,7 +28,7 @@ const StorySection = () => {
               <h3 className="text-3xl font-bold text-gray-800">Our Story</h3>
             </div>
             <p className="text-gray-600 leading-relaxed">
-              Quasarlabs was established with the vision of making sophisticated digital marketing strategies accessible to businesses across all sectors. We identified the increasing demand for outcome-focused marketing solutions that deliver authentic business transformation.
+              Eclipse was established with the vision of making sophisticated digital marketing strategies accessible to businesses across all sectors. We identified the increasing demand for outcome-focused marketing solutions that deliver authentic business transformation.
             </p>
             <p className="text-gray-600 leading-relaxed">
               Our journey started through comprehensive research into digital marketplace challenges. We’ve concentrated on creating strategic frameworks and innovative solutions that tackle these complexities through validated methodologies and success-oriented principles. Today, we function as reliable marketing partners who comprehend your business objectives and develop customized solutions that accelerate expansion and establish market leadership.

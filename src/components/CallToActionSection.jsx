@@ -65,7 +65,7 @@ const CallToActionSection = () => {
               transition={{ delay: 0.1 }}
               className="text-lg text-indigo-100 mb-8 max-w-2xl mx-auto"
             >
-              Join hundreds of successful businesses that trust Quasarlabs to boost 
+              Join hundreds of successful businesses that trust Eclipse to boost 
               their search rankings, drive traffic, and accelerate growth.
             </motion.p>
 
