@@ -1,5 +1,6 @@
 import { Mail, MapPin, Phone, Send, User } from "lucide-react";
 import { useState } from "react";
+import contactData from "../utils/contactInfo";
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({
@@ -16,30 +17,29 @@ const ContactSection = () => {
   const [loading, setLoading] = useState(false);
   const [status, setStatus] = useState({ message: "", type: "" });
 
-  // Contact information array
+  // Contact information array using imported data
   const contactInfo = [
-  {
-    icon: User,
-    title: "Executive Director",
-    content: "JOSEPH MCCARY",
-  },
-  {
-    icon: MapPin,
-    title: "Our Location",
-    content: "Emerald Hills Drive 1123, Edmonds, Washington, 98020, United States of America",
-  },
-  {
-    icon: Phone,
-    title: "Phone Number",
-    content: "+1 612-594-7289",
-  },
-  {
-    icon: Mail,
-    title: "Email Address",
-    content: "reyescooperiaz843@hotmail.com",
-  },
-];
-
+    {
+      icon: User,
+      title: "Executive Director",
+      content: contactData.name,
+    },
+    {
+      icon: MapPin,
+      title: "Our Location",
+      content: contactData.address,
+    },
+    {
+      icon: Phone,
+      title: "Phone Number",
+      content: contactData.phone,
+    },
+    {
+      icon: Mail,
+      title: "Email Address",
+      content: contactData.email,
+    },
+  ];
 
   // Services array
   const services = [
@@ -81,7 +81,7 @@ const ContactSection = () => {
     if (!formData.service) newErrors.service = "Please select a service.";
     if (!formData.subject.trim()) newErrors.subject = "Subject is required.";
     if (!formData.message.trim()) newErrors.message = "Message is required.";
-    
+
     return newErrors;
   };
 
@@ -197,7 +197,11 @@ const ContactSection = () => {
             </div>
 
             {/* Contact Form */}
-            <form onSubmit={handleSubmit} className="w-full md:w-3/5 p-8" noValidate>
+            <form
+              onSubmit={handleSubmit}
+              className="w-full md:w-3/5 p-8"
+              noValidate
+            >
               <h2 className="text-2xl font-bold mb-6 text-gray-800">
                 Send Us a Message
               </h2>
@@ -295,9 +299,8 @@ const ContactSection = () => {
             Find Us On Map
           </h2>
           <div className="w-full h-96 bg-gray-200 rounded-lg overflow-hidden">
-            
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.5875669489087!2d-122.94353072344765!3d47.02974087114281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549175b452d3b647%3A0x732aa77ea1c02a0!2s3300%2021st%20Ave%20SW%2C%20Olympia%2C%20WA%2098512%2C%20USA!5e1!3m2!1sen!2sbd!4v1753857150859!5m2!1sen!2sbd"
+              src={contactData.maplocation}
               width="100%"
               height="100%"
               style={{ border: 0 }}

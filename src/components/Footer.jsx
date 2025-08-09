@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Facebook, Instagram, Twitter } from "lucide-react";
 import { Link } from "react-router-dom";
+import contactInfo from "./utils/contactInfo";
 
 const Footer = () => {
   return (
@@ -11,16 +12,11 @@ const Footer = () => {
           <div>
             <Link to="/" className="flex items-center mb-4">
               {/* <span className="text-2xl font-bold text-white">Eclipse</span> */}
-              <img
-                src="/logo.png"
-                alt="Eclipse logo"
-                className="h-24 w-auto"
-              />
+              <img src="/logo.png" alt="Eclipse logo" className="h-24 w-auto" />
             </Link>
             <p className="text-gray-400">
-              At Eclipse, we focus on delivering impactful SEO strategies
-              that help businesses enhance their digital presence and achieve
-              growth.
+              At Eclipse, we focus on delivering impactful SEO strategies that
+              help businesses enhance their digital presence and achieve growth.
             </p>
             <div className="flex space-x-4 mt-4">
               <motion.a
@@ -112,15 +108,12 @@ const Footer = () => {
           {/* Contact Info */}
           <div>
             <h4 className="text-lg font-semibold text-white">Contact Us</h4>
-            <p className="mt-4 text-gray-400">21st Avenue Southwest 3300</p>
-            <p className="text-gray-400">Olympia</p>
-            <p className="text-gray-400">Washington, 98512</p>
-            <p className="text-gray-400">United States of America</p>
+            <p className="mt-4 text-gray-400">{contactInfo.address}</p>
             <p className="mt-4 text-gray-400">
-              <strong>Phone:</strong> +1 2522633938
+              <strong>Phone:</strong> {contactInfo.phone}
             </p>
             <p className="text-gray-400">
-              <strong>Email:</strong> hendersonbrooklynmaj509@hotmail.com
+              <strong>Email:</strong> {contactInfo.email}
             </p>
           </div>
         </div>
